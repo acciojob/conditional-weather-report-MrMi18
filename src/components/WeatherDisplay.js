@@ -5,10 +5,10 @@ const WeatherDisplay = ({temp}) => {
   return (
     <span  style={temp.temperature>20?{color:"Red"}:{color:"blue"}}   > 
        <p>
-        Temperature : {temp.temperature}
+        Temperature: {temp.temperature}
        </p>
        <p>
-        Conditions : {temp.conditions}
+        Conditions: {temp.conditions}
        </p>
 
     </span>
